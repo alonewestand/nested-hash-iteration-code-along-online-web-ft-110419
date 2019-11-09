@@ -14,5 +14,5 @@ contacts = {
 }
 
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"][favorite_ice_cream_flavors][0].slice
+  contacts.each do |person, contact_details_hash|
 end
